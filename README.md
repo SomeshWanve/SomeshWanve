@@ -1,10 +1,13 @@
-- 👋 Hi, I’m @SomeshWanve
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+package com.arithmetic;
 
-<!---
-SomeshWanve/SomeshWanve is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+public class IfElseExapmle {
+	public static void main(String[] args) {
+		int number = 0;
+    	if (number%2==0) {
+		System.out.println("Even Number");
+	}
+	 else {
+		System.out.println("Odd Number");
+	}
+	}
+}
